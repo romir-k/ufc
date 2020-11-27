@@ -5,7 +5,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import StratifiedKFold
 from sklearn.linear_model import LogisticRegression
-from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 
 # import dataset
 fights = pd.read_csv('/home/romir/Downloads/ufc-master.csv')
